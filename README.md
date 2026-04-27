@@ -24,6 +24,7 @@ GUIDE QUESTIONS (Student Explanation & Reflection)
 11. Did the gap between training and validation accuracy decrease? Explain. No, the gap between training and validation accuracy did not decrease; it remained large. Training accuracy increased, while validation accuracy stayed low and stagnant, indicating severe overfitting despite enhancements.
 
 #D.Explainability (Grad-CAM Integration)
+
 12. How did Grad-CAM help in understanding model predictions?It helps understand model predictions by showing a heatmap on the input image, highlighting regions most influential in the model's decision.
 13. Did the improved model focus on more relevant regions? Provide evidence.  Cannot confirm if the improved model focused on more relevant regions as Grad-CAM was only run on the initial model in the notebook. A new Grad-CAM run on the improved model would be needed for evidence.
 14. Why is explainability important in real-world AI applications? Crucial for building trust, debugging models, detecting biases, meeting regulatory compliance, and gaining new scientific insights in real-world AI applications.
